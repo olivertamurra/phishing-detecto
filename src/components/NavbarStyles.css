@@ -12,6 +12,7 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 9999;
+    background-color: #fff;
 }
 
 .navbar-logo{
@@ -42,7 +43,7 @@
 }
 
 .nav-links:hover{
-    background-color: #01959a;
+    background-color:rgba(0, 0, 0, 0.845);
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
