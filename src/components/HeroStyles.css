@@ -52,8 +52,7 @@ object-fit: cover;
 @media screen and (max-width:1005px) {
     .overlay {
     
-        height: 99%;
-        
+        height: 99%;        
     }
      
     

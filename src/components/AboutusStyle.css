@@ -1,0 +1,13 @@
+.aboutcon{
+    text-align: center;
+    margin: 90px 70px 90px 70px;
+}
+
+.aboutcon h1{
+    font-size: 4rem;
+}
+
+.aboutcon p{
+    margin-top: 20px;
+    font-size: 1.4rem;
+}

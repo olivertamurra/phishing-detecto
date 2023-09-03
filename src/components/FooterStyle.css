@@ -1,0 +1,30 @@
+.footer{
+    background-color: black;
+    color:#fff;
+    height: 25vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 90px 0 90px;
+
+}
+.footer .container .first h1{
+    font-size: 2rem;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second a{
+    color: #fff;
+    font-size: 50px;
+    
+}
+
+.second a i{
+    margin-left: 2rem;
+}

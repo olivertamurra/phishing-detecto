@@ -1,6 +1,5 @@
 import "./HeroStyles.css"
 import React from "react"
-import mainimg from "../assets/maninimg.jpg";
 
 
 function Hero (props){
