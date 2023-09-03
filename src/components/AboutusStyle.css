@@ -1,13 +1,45 @@
+
 .aboutcon{
-    text-align: center;
+    text-align: start;
     margin: 90px 70px 90px 70px;
 }
 
 .aboutcon h1{
     font-size: 4rem;
+    
+
 }
 
 .aboutcon p{
     margin-top: 20px;
     font-size: 1.4rem;
+}
+
+.imgserv{
+    position: absolute;
+    top: 40rem;
+    left: 5rem;
+    z-index: -1;
+opacity: 0.8;  
+}
+.imgserv2{
+    position: absolute;
+    top: 90rem;
+    left: 39rem;
+    z-index: -1;
+opacity: 0.7;  
+}
+.imgserv3{
+    position: absolute;
+    top: 119rem;
+    right: 10rem;
+    z-index: -1;
+    opacity: 0.5;  
+}
+
+@media screen and (max-width: 1071px) {
+    .imgserv2, .imgserv3, .imgserv{
+     display:none
+    }
+
 }

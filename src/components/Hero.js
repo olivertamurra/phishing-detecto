@@ -3,6 +3,7 @@ import React from "react"
 
 
 function Hero (props){
+    
     return(
         <>
         <div className={props.cName}>

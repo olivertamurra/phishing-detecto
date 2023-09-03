@@ -1,5 +1,7 @@
 import "./AboutusStyle.css"
-
+import imgser from "../assets/photo-1487260211189-670c54da558d.avif"
+import imgser2 from "../assets/premium_photo-1661962676870-f87ad4a4c7dd.avif"
+import imgser3 from "../assets/premium_photo-1663013021590-c3d2ff59030b.avif"
 const Aboutus = ()=>{
     return(
         <>
@@ -19,6 +21,12 @@ const Aboutus = ()=>{
              Më shumë se kurrë, mënyra sesi të dhënat dhe informacioni trajtohen dhe ruhen është e rëndësishme për të mbrojtur të drejtat dhe interesat e individëve dhe organizatave. Misioni im është të kontribuoj në ndërgjegjësimin dhe edukimin e të tjerëve në lidhje me këtë sfidë të sigurisë dixhitale dhe të zhvilloj mjete dhe praktika për të
               ndihmuar në ruajtjen dhe mbrojtjen e të dhënave dhe sistemeve të informacionit. <br /><br /><br />
         </p>
+        <img src={imgser2} alt="img" className="imgserv2" />
+        <img src={imgser} alt="img" className="imgserv" />
+
+        <img src={imgser3} alt="img" className="imgserv3" />
+
+
         <h1>Misioni Ynë</h1>
        <p>Misioni i faqes tonë është të ofrojë një burim të rëndësishëm dhe të besueshëm për edukimin e përdoruesve rreth sulmeve phishing dhe mënyrave efikase për t'u mbrojtur nga këto rreziqe të sigurisë dixhitale. Ne synojmë të nxisim ndërgjegjësimin dhe të ofrojmë njohuri thelbësore për rrezikun e sulmeve phishing dhe pasojat që mund të ketë për individët dhe organizatat.
 
