@@ -1,0 +1,49 @@
+.serviceconta h1{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 4rem;
+}
+
+.firstsect,.secondsect,.thirssect{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 11rem ;
+    font-size: 17px;
+}
+
+ .secondsect{
+    flex-direction: row-reverse;
+}
+
+.secondsect p{
+    font-size: 19px;
+    margin-left: 10rem;
+    padding-top: 4rem;
+}
+
+.thirssect p{
+    font-size: 19px;
+    margin-right: 10rem;
+    padding-top: 4rem;
+}
+
+.firstsect p{
+    font-size: 19px;
+    margin-right: 10rem;
+    padding-top: 1.5rem;
+}
+
+@media screen and (max-width: 1471px) {
+    .firstsect,.secondsect,.thirssect{
+        margin: 1rem 1rem ;
+        font-size: 17px;
+        flex-direction: column;
+    }
+    .secondsect p{
+        margin-left: 0rem;
+    }
+    img{
+        height: 20rem;
+        width: 20rem;
+    }
+}
