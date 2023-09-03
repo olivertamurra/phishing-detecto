@@ -1,0 +1,44 @@
+.contactus{
+    margin: 7rem 25rem ;
+}
+.contactus h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+.contactus form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus form input{
+    margin-bottom: 2rem;
+    height: 4rem;
+    padding: 0.5rem 2.5rem;
+    border-color: black;
+    font-size: 19px;
+}
+
+.contactus form textarea{
+    margin-bottom: 3rem;
+    padding: 2rem 2.5rem;
+    border-color: black;
+    font-size: 19px; 
+}
+
+.contactus form button{
+    height: 4rem;
+    border-color: black;
+    background-color: black;
+    color: #fff;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 1071px) {
+.contactus{
+    margin: 1rem 1rem;
+}
+.contactus h1{
+    font-size: 3rem;
+}
+}
