@@ -28,3 +28,26 @@
 .second a i{
     margin-left: 2rem;
 }
+
+@media screen and (max-width: 1071px) {
+    .container{
+        padding: 60px 60px 0 60px;
+
+}
+    .footer .container .first h1{
+    font-size: 1rem;
+    }
+
+    .footer .container .first p{
+        font-size: 0.8rem;
+    }
+
+    .second a{
+        color: #fff;
+        font-size: 30px;
+        
+    }
+    .second a i{
+        margin-left: 1rem;
+    }
+}
