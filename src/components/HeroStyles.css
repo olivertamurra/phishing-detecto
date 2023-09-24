@@ -3,6 +3,8 @@
     width: 100%;
     max-height: 100vh;
 object-fit: cover;
+
+
 }
 
 .heromid{
@@ -31,7 +33,9 @@ object-fit: cover;
     left: 50%;
     transform: translate(-50%,-50%);
     color: aliceblue;
-    text-shadow: 2px 1px 11px rgba(242, 236, 236, 0.599);}
+    text-shadow: 2px 1px 11px rgba(242, 236, 236, 0.599);
+    ;}
+    
 
 .hero-text h1{
     font-size: 7rem;
@@ -49,21 +53,25 @@ object-fit: cover;
     text-align: center;
 }
 
-@media screen and (max-width:1005px) {
+@media screen and (max-width:1033px) {
     .overlay {
     
-        height: 99%;        
+        height: cover;        
     }
-     
+    .hero-text h1{
+        /* padding: 10px 20px; */
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .mainimg{
+        height: 100vh;
+    }
     
     
 }
 @media screen and (max-width:555px) {
-    .hero-text h1{
-        padding: 10px 20px;
-        font-size: 2rem;
-        text-align: center;
-    }
+  
 
     .hero-text p{
         padding: 1.1rem;
