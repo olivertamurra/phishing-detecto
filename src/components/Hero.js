@@ -7,7 +7,8 @@ function Hero (props){
     return(
         <>
         <div className={props.cName}>
-            <img className="mainimg" src={props.cimg} alt="phishingimg"/>
+            <img className="mainimg" src={props.cimg} alt="phishingimg" />
+
             <div class="overlay"></div>
 
             <div className="hero-text">
